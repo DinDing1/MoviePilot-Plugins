@@ -179,8 +179,8 @@ if __name__ == "__main__":
     args = parse_args()
 
     # 从环境变量或命令行参数获取配置
-    PASSPORT = os.getenv("P123_USER", "17504670212")
-    PASSWORD = os.getenv("P123_PASS", "ztj040712")
+    PASSPORT = os.getenv("P123_USER", "")
+    PASSWORD = os.getenv("P123_PASS", "")
     LOCAL_PATH = os.getenv("LIBRARY_PATH", args.local_path)
     PARENT_ID = os.getenv("PARENT_ID", args.parent_id)
     
